@@ -19,6 +19,7 @@
   <meta name="twitter:title" content="Daniel Bernier">
   <meta name="twitter:description" content="A piano technician, public artist, and software engineer living in Rhode Island. Daniel is nonbinary, and uses they/them pronouns." />
   <meta name="twitter:image" content="https://danbernier.com/imgs/pianotech/sanding.jpg">
+  <link href="print.css" media="print" rel="stylesheet" />
 <style>
 
 body {
@@ -71,15 +72,15 @@ footer a {
       <h1>Daniel Bernier</h1>
     </header>
 
-    <p>...is a piano technician, public artist, and software engineer living in Rhode Island.</p>
-
-    <p>They are nonbinary, and use they/them pronouns. <img src="imgs/nonbinary.png" style="height: 0.825em"></p>
+    <p>A piano technician, public artist, and software engineer living in Rhode Island.</p>
+    <p>They are nonbinary, and use they/them pronouns. <img id='nonbinary' src="imgs/nonbinary.png" style="height: 0.825em"></p>
 
     <h2>As piano technician</h2>
     <p>
     They are the secretary and librarian for the <a href="https://ri-ptg.com/">Rhode Island chapter</a>
     of the <a href="https://www.ptg.org/">Piano Technician's Guild</a>.
-    They study under <a href="https://www.thebutlerschool.org/about-the-course-directory/about-maggie.html">Maggie Jusiel</a>,
+    They study at <a href="https://www.thebutlerschool.org">The Butler School</a> under 
+    <a href="https://www.thebutlerschool.org/about-the-course-directory/about-maggie.html">Maggie Jusiel</a>,
     are mentored by <a href="https://www.doghousepianos.com/">Amy Tiernan</a> and
     <a href="https://ruthspiano.com/">Ruth Van Dine</a>,
     and work for <a href="https://loisellepianos.com/">Loiselle Pianos</a>.
@@ -157,12 +158,16 @@ footer a {
       <a href="https://designischoice.com/projects/pool-noodle-marilyn"><img src='imgs/marilyn.jpg'></a>
     </main>
 
-    <footer>
+    <footer class="screen">
       &copy; Daniel Bernier 2026
       <a href="https://www.instagram.com/designischoice/"><img src="imgs/instagram.svg"></a>
       <a href="https://www.github.com/danbernier/"><img src="imgs/github.svg"></a>
       <a href="https://www.linkedin.com/in/danbernier/"><img src="imgs/linkedin.svg"></a>
       <a href="daniel-bernier-resume.pdf">résumé</a>
+    </footer>
+    <footer class="print" style="display: none">
+      danbernier@gmail.com • 
+      danbernier.com
     </footer>
   </div>
 </body>

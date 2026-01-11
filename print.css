@@ -1,0 +1,43 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-family: "Georgia", "Helvetica Neue", Arial, sansserif;
+  font-family: "Hoefler Text", "Georgia", "Helvetica Neue", Arial, sansserif;
+  font-size: 0.865em !important;
+}
+
+#nonbinary {
+  display: none !important;
+}
+
+footer.screen {
+  display: none !important;
+}
+footer.print {
+  display: block !important;
+  border-top: 1px solid #000000;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+a, a:visited {
+  color: #000000 !important;
+  text-decoration: none !important;
+}
+
+main, footer {
+  margin-left: 9% !important;
+  margin-right: 9% !important;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  line-height: 105%;
+}
+
+h1, h2 {
+  font-weight: normal;
+  margin-top: 1em !important;
+}
+
+#photos {
+  display: none !important;
+  margin: 0px !important;
+}
