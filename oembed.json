@@ -1,1 +1,11 @@
-{"type":"link", "version":"1.0", "title":"Daniel Bernier","provider_name":"Daniel Bernier", "provider_url":"https://danbernier.com","author_name":"Daniel Bernier","author_url":"https://danbernier.com"}
+{"type":"link", 
+  "version":"1.0", 
+  "title":"Daniel Bernier",
+  "provider_name":"Daniel Bernier", 
+  "provider_url":"https://danbernier.com",
+  "author_name":"Daniel Bernier",
+  "author_url":"https://danbernier.com",
+  "thumbnail_url":"https://danbernier.com/imgs/pianotech/sanding.jpg",
+  "thumbnail_width": 800,
+  "thumbnail_height": 800
+}
